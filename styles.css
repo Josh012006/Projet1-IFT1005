@@ -14,13 +14,14 @@ header {
 
 }
 
-footer {
+/* footer { */
+    /* TODO: css footer */
+/* } */
 
-}
+/* .navigateur { */
+    /* TODO: css nav */
 
-.navigateur {
-
-}
+/* } */
 
 .navigateur ul {
     list-style-type: none;
@@ -34,16 +35,18 @@ footer {
 	margin: 10px;
 }
 
-.navigateur a {
-    
-}
-.navigateur a:visited {
-    
-}
+/* .navigateur a { */
+    /* TODO: css nav */
+/* } */
+/* .navigateur a:visited { */
+    /* TODO: css nav */
 
-.navigateur {
-    
-}
+/* } */
+
+/* .navigateur { */
+     /* TODO: css nav */
+
+/* } */
 
 .image0 {
 	margin: (0px, 20px,0px, 20px);
