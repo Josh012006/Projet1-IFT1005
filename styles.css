@@ -1,2 +1,91 @@
+body {
+	/* background-color: #a89af8f6; */
+	background-color: #ff9d00;
+	/* color: rgb(179, 100, 36); */
+	/* TODO: Convertir color en hexadécimal: #b36424 */
+	color: rgb(14, 0, 32);
+}
 
+header {
+	text-align: center;
+	/* background-image:linear-gradient(to right, #2d2041, #bdb2f95d) ; */
+	/* background-image:linear-gradient(to right, #39393a, #ff00005d) ; */
+	background-image:linear-gradient(to right, #1919c231, #f5000083) ;
 
+}
+
+footer {
+
+}
+
+.navigateur {
+
+}
+
+.navigateur ul {
+    list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.navigateur li {
+    display: inline-block;
+	margin: 10px;
+}
+
+.navigateur a {
+    
+}
+.navigateur a:visited {
+    
+}
+
+.navigateur {
+    
+}
+
+.image0 {
+	margin: (0px, 20px,0px, 20px);
+}
+
+.paragraphe{
+	margin-right: 500px;
+}
+
+.chapitre {
+	border-style: solid;
+	border-color: black;
+	color: #12051d;
+	margin: 30px;
+	background-color: #4a206d00;
+	
+}
+
+#chapitre1 {
+	background-image:url(assets/photographe_a2.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-origin: content-box;
+	background-clip: padding-box;
+	background-size: 20%;
+}
+
+#chapitre2 {
+	background-image:url(assets/lion_a3.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-origin: content-box;
+	background-clip: padding-box;
+	background-size: 20%;
+	text-align: left;
+}
+
+#chapitre3 {
+	background-image:url(assets/urban-a4.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-origin: content-box;
+	background-clip: padding-box;
+		background-size: 20%;
+}
