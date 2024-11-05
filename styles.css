@@ -17,13 +17,22 @@ header {
 	margin-bottom: 30px;
 }
 
-cite {
+.citation {
 	margin: 10px;
 }
 
-/* footer { */
-    /* TODO: css footer */
-/* } */
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: #2d3d55;
+}
+
+footer p {
+	margin: 15px;
+	text-align: center;
+	color: #ffffffad;
+	padding-top: 10%;
+}
 
 /* .navigateur { */
     /* TODO: css nav */
