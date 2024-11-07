@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-size: 14px;
+}
+
+
+
+
+/* Code pour la page compétences */
+
+.competences {
+    text-align: justify;
+}
+
+.competences section {
+    padding: 20px;
+}
+
+.competences h2 {
+    text-align: center;
+}
+
+.university {
+    width: 50%;
+    margin:auto;
+    display: block;
+
+    border-radius: 5px;
+}
+
+.award {
+    float: right;
+    width: 25%;
+
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid indigo;
+}
+
+.experiences > li {
+    margin: 5px;
+}
+
+.atouts {
+    list-style-type: square;
+}
+
+.atouts > li {
+    margin: 5px;
+}
+
+.atouts > li::first-letter {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.aptitudes > div {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
