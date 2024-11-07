@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 
-	/* PALETTE DE COULEURS */
+	/* PALETTE DE COULEURS 1*/
 	
 	/* #cccfd2
 	#313439
@@ -17,8 +17,21 @@
 	#a49c9f */
 
 
-
+		/* PALETTE DE COULEURS 2*/
 	
+	/* #bcb7b1
+	#15162c
+	#756b6b
+	#724232
+	#7c7c7f
+	#966148
+	#eac3ae
+	#8d8383
+	#e4e0de
+	#546464 */
+
+
+
 body {
 	/* background-color: #a89af8f6; */
 	background-color: #7d76869f;
