@@ -147,7 +147,7 @@ nav a:visited {
 }
 
 .chapitre-img {
-	border: 1px solid #000000;
+	/* border: 1px solid #000000; */
 	border-radius: 20px;
 	margin: 10px;
 }
@@ -161,7 +161,7 @@ nav a:visited {
 }
 
 #photo3 {
-	background-image: url(assets/urban1-a4.jpg);
+	background-image: url(assets/img/ville.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -354,26 +354,8 @@ nav a:visited {
     background-position: -10px -10px;
 }
 
-@keyframes slide {
-	0% {
-		left: 5%;
-	}
 
-	50% {
-		left: 70%;
-	}
-
-	100% {
-		left: 5%;
-	}
-}
 
 .svg {
     clear: both;
 }
-
-.svg img {
-	animation: slide 12s infinite;
-	position: relative;
-}
-
