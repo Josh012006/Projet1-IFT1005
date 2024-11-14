@@ -4,6 +4,7 @@
     </ellipse>
     <polyline points="200,230 270,250 250,200" fill="#486270">
         <animate attributeName="fill" to="#1f2c34" dur="5s" repeatCount="indefinite"></animate>
+        <animate attributeName="points" to="70,200 40,250 100,230" dur="15s" repeatCount="indefinite"></animate>
     </polyline>
 
     <text x="110" y="160">

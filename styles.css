@@ -46,8 +46,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-	margin: 0px 20px;
-	padding: 10px;
+	margin: 0px 10px;
+	padding: 10px 20px;
 
 	min-width: 120px;
 }
@@ -61,9 +61,9 @@ nav a {
 	color: rgb(21, 153, 120);
 }
 
-/* nav a:visited {
+nav a:visited {
 	color: grey;
-} */
+}
 
 nav a:focus, nav a:hover {
 	text-decoration: underline;
@@ -92,6 +92,11 @@ nav a:focus, nav a:hover {
 	background-color: #06414e;
 
 	font-family: "Caveat", cursive;
+}
+
+.description-entete {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
 }
 
 
@@ -167,9 +172,9 @@ nav a:focus, nav a:hover {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position:right;
+	background-position: 900px 0px;
 	height:320px;
-	width: 380px;
+	width: 300px;
 	display: inline-block;
 }
 
@@ -304,19 +309,21 @@ nav a:focus, nav a:hover {
 }
 
 .rangee2 img {
+    border: 2px solid rgb(82, 51, 42);
+}
+
+.rangee3 img {
 	border-radius: 7px;
 	height: 290px;
 }
 
-.rangee3 img {
-    border: 2px solid rgb(82, 51, 42);
-}
 
-.img7 {
+
+.img4 {
     border-radius: 5%;
 }
 
-.img8 {
+.img5 {
     border-radius: 50%;
 }
 
@@ -364,7 +371,7 @@ nav a:focus, nav a:hover {
 
 .sprites li {
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
 }
 
 .sprites a {
