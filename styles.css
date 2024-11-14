@@ -1,37 +1,14 @@
-*{
-	/* font-family:Verdana, Geneva, Tahoma, sans-serif */
-	box-sizing: border-box;
-}
-
-	/* PALETTE DE COULEURS 1*/
-	
-	/* #cccfd2
-	#313439
-	#7c8389
-	#97a7b3
-	#8b99a6
-	#5e707e
-	#0d0f11
-	#4e6374
-	#575d64
-	#a49c9f */
-
-
-		/* PALETTE DE COULEURS 2*/
-	
-	/* #bcb7b1
-	#15162c
-	#756b6b
-	#724232
-	#7c7c7f
-	#966148
-	#eac3ae
-	#8d8383
-	#e4e0de
-	#546464 */
+/* 
+	Kuza Twagiramungu (20317467)
+	Josué Mongan (20290870)
+ */
 
 
 /* Code CSS commun aux quatre pages */
+
+*{
+	box-sizing: border-box;
+}
 
 body {
 	background-color: #748796;
@@ -344,6 +321,15 @@ nav a:visited {
     margin: 25px;
 
     font-weight: bold;
+}
+
+.mail {
+	color: #06414e;
+	text-decoration: none;
+}
+
+.mail:hover {
+	text-decoration: none;
 }
 
 .sprites {
