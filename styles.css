@@ -113,6 +113,39 @@ nav a:focus, nav a:hover {
 	text-align: center;
 }
 
+@keyframes roll {
+	0% {
+		left: 30px;
+		transform: rotate(0deg);
+	}
+
+	50% {
+		left: 150px;
+		transform: rotate(720deg);
+	}
+
+	100% {
+		left: 30px;
+		transform: rotate(0deg);
+	}
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+
+	width: 60px;
+	height: 60px;
+
+	border-radius: 50%;
+	border: 2px solid white;
+
+	padding: 10px;
+
+	animation: roll 2s;
+}
+
 
 .image0 {
 	margin:20px;
