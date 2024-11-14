@@ -105,25 +105,17 @@ nav a:visited {
 
 .header-accueil {
 	background-image:linear-gradient(to right, #0c0f0f, #62899e);
-	position:relative;
-}
-
-.entete {
-	display: inline;
-	width: 50%;
 	text-align: center;
 }
 
+
 .image0 {
 	margin:20px;
-	margin-left: 150px;
 }
 
 .nom {
 	margin-bottom: 30px;
 	font-size: 70px;
-	padding-top: 100px;
-	float: right;
 
 	font-family: "Caveat", cursive;
 }
