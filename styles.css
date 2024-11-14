@@ -109,7 +109,8 @@ nav a:visited {
 /* Code CSS pour la page d'accueil */
 
 .header-accueil {
-	background-image:linear-gradient(to right, #0c0f0f, #62899e) ;
+	background-image:linear-gradient(to right, #0c0f0f, #62899e);
+	position:relative;
 }
 
 .entete {
