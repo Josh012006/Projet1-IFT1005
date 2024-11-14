@@ -52,22 +52,28 @@ nav ul {
 
 nav li {
     display: inline-block;
-	margin: 10px;
+	margin: 0px 20px;
+	padding: 10px;
+
+	min-width: 120px;
+}
+
+nav li:hover {
+	background-color: white;
 }
 
 nav a {
 	text-decoration: none;
-	color: #000000;
+	color: rgb(21, 153, 120);
 }
 
-nav a:focus, a:hover {
+/* nav a:visited {
+	color: grey;
+} */
+
+nav a:focus, nav a:hover {
 	text-decoration: underline;
-	color: #ffffff;
-}
-
-nav a:visited {
-	color: #0c004e;
-	color: #7d76869f;
+	color: #000000;
 }
 
 .float-right {
@@ -104,7 +110,7 @@ nav a:visited {
 /* Code CSS pour la page d'accueil */
 
 .header-accueil {
-	background-image:linear-gradient(to right, #0c0f0f, #62899e);
+	background-image:linear-gradient(to right, #072b4b, #579494);
 	text-align: center;
 }
 
