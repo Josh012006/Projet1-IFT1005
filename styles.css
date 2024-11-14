@@ -264,6 +264,10 @@ nav a:visited {
 .galerie .img:hover {
     box-shadow: none;
     border: none;
+
+	transition: transform 1s ease;
+
+	transform: scale(1.07);
 }
 
 .rangee1 .img {
@@ -286,14 +290,19 @@ nav a:visited {
 }
 
 .rangee2 img {
+	border-radius: 7px;
+	height: 290px;
+}
+
+.rangee3 img {
     border: 2px solid rgb(82, 51, 42);
 }
 
-.img4 {
+.img7 {
     border-radius: 5%;
 }
 
-.img5 {
+.img8 {
     border-radius: 50%;
 }
 
@@ -357,8 +366,36 @@ nav a:visited {
     background-position: -10px -10px;
 }
 
+@keyframes slide {
+	0% {
+		left: 5%;
+		transform: scale(1);
+	}
 
+	25% {
+		transform: scale(0.8);
+	}
+
+	50% {
+		left: 70%;
+		transform: scale(1);
+	}
+
+	75% {
+		transform: scale(0.8);
+	}
+
+	100% {
+		left: 5%;
+		transform: scale(1);
+	}
+}
 
 .svg {
     clear: both;
+}
+
+.svg img {
+	position: relative;
+	animation: slide 10s infinite;
 }
