@@ -7,11 +7,11 @@
     <title>Page d'accueil</title>
 </head>
 <body>
-    <header class="accueil">
-        <img class="image0" src="assets/photographe_a1.jpg" alt="Image de Julien Laroche" usemap="#image0_map">
+    <header class="header-accueil">
+        <img class="image0" src="assets/photographe_a1.jpg" alt="Image de Julien Laroche" usemap="#image-map">
 
-        <map name="image0_map">
-            <area shape="poly" coords="100,10, 150,80, 120,150, 80,150, 50,80" href="https://fr.wikipedia.org/wiki/Photographe" alt="lien vers la page wikipedia du photographe">
+        <map name="image-map">
+            <area target="_blank" alt="Wikipedia du photographe" title="Wikipedia du photographe" href="https://fr.wikipedia.org/wiki/Photographe" coords="370,6,161,160,217,396,505,394,543,159" shape="poly">
         </map>
 
         <h1 class="nom">Julien Laroche</h1>
@@ -33,7 +33,7 @@
             <h2 class="titre-chapitre">L'histoire derrière l'objectif</h2>
             <!-- TODO: Titres adaptés à l'utilisateur (plus sobre?) -->
             <p class="description">
-                <img class="accueil-img float" id="photo1" src="assets/photographe_a2.jpg" alt="Image de Julien laroche prenant une photo">
+                <img class="chapitre-img float-right" id="photo1" src="assets/photographe_a2.jpg" alt="Image de Julien laroche prenant une photo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -44,7 +44,7 @@
             <h2 class="titre-chapitre">Un instant face au roi de la nature</h2>
             <!-- TODO: Titres adaptés à l'utilisateur (plus sobre?) -->
             <p class="description">
-                <span class= "accueil-img" id="photo2"></span>
+                <img class="chapitre-img float-left" id="photo2" src="assets/lion_a3.jpg" alt="Image d'un lion">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -55,7 +55,7 @@
             <h2 class="titre-chapitre">Du calme des forêts à l'énergie des villes</h2>
             <!-- TODO: Titres adaptés à l'utilisateur (plus sobre?) -->
             <p class="description">
-                <img class="accueil-img float" id="photo3" src="assets/urban-a4.jpg" alt="Image de Times Square">
+                <span class= "chapitre-img float-right" id="photo3"></span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -64,17 +64,16 @@
     </main>
     
     <footer>
-        <ul class="footer-accueil">
-            <li>
-                Nom: Twagiramungu
-            </li>
-            <li>
-                Prénom: Kuza
-            </li>
-            <li>
-                Matricule: 20317467
-            </li>
-        </ol>
+        <p>
+            Nom: Twagiramungu <br>
+            Prénom: Kuza <br>
+            Matricule: 20317467
+        </p>
+        <p>
+            Nom: Mongan <br>
+            Prénom: Josué <br>
+            Matricule: 20290870
+        </p>
     </footer>
 </body>
 </html>

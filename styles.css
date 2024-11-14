@@ -31,32 +31,14 @@
 	#546464 */
 
 
+/* Code CSS commun aux quatre pages */
 
 body {
-	/* background-color: #a89af8f6; */
 	background-color: #7d76869f;
-	/* color: rgb(179, 100, 36); */
-	/* TODO: Convertir color en hexadécimal: #b36424 */
 	color: rgb(14, 0, 32);
-
+    font-size: 15px;
 	margin: 0;
 	padding: 0;
-}
-
-header {
-	text-align: center;
-	background-image:linear-gradient(to right, #7d7686, #adadad) ;
-	/* background-image:linear-gradient(to right, #39393a, #ff00005d) ; */
-	/* background-image:linear-gradient(to right, #1919c231, #f5000083) ; */
-
-}
-
-.nom {
-	margin-bottom: 30px;
-}
-
-.citation {
-	margin: 10px;
 }
 
 footer {
@@ -64,13 +46,13 @@ footer {
 	height: 300px;
 	background-color: #2d3d55;
 	padding: 10%;
+	text-align: center;
 }
 
-footer ul {
+footer p {
 	margin: 15px;
-	text-align: center;
 	color: #ffffffad;
-	list-style-type: none;
+	display: inline-block;
 }
 
 nav {
@@ -105,22 +87,43 @@ nav a:visited {
 	color: #7d76869f;
 }
 
-<<<<<<< HEAD
-/* .image0 {
-	/* margin: (0px, 20px,0px, 20px); 
-} */
-=======
+.float-right {
+	float:right;
+}
+
+.float-left {
+	float:left;
+}
+
+.intro {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Code CSS pour la page d'accueil */
+
+.header-accueil {
+	text-align: center;
+	background-image:linear-gradient(to right, #7d7686, #adadad) ;
+}
+
 .image0 {
 	margin:20px;
 }
->>>>>>> 8ff23afea42e5f8ede74998841888b7e4bab0318
 
-.titre-chapitre {
-	text-align: center;
+.nom {
+	margin-bottom: 30px;
 }
 
-.description {
-	text-align: justify;
+.citation {
+	padding: 10px;
+	display: inline-block;
 }
 
 .chapitre {
@@ -133,34 +136,226 @@ nav a:visited {
 	margin: 30px;
 }
 
-.accueil-img {
+.titre-chapitre {
+	text-align: center;
+	padding: 15px;
+	font-style: italic;
+}
+
+.description {
+	text-align: justify;
+}
+
+.chapitre-img {
 	border: 1px solid #000000;
 	border-radius: 20px;
 	margin: 10px;
 }
 
-.float {
-	float:right;
-	max-width:max-content;
-	max-height: max-content;
-}
-
 #photo1 {
-	height: 200px;
+	height: 300px;
 }
 
 #photo2 {
-	background-image: url(assets/lion_a3.jpg);
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: contain;
-	height:250px;
-	width: 360px;
-	float: left;
+	width: 300px;
 }
 
 #photo3 {
-	width: 30%;
-	height: 200px;
+	background-image: url(assets/urban1-a4.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:right;
+	height:320px;
+	width: 380px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* Code CSS pour la page compétences */
+
+.competences {
+    text-align: justify;
+}
+
+.competences section {
+    padding: 20px;
+}
+
+.competences h2 {
+    text-align: center;
+}
+
+.university {
+    width: 50%;
+    margin:auto;
+    display: block;
+
+    border-radius: 5px;
+}
+
+.award {
+    float: right;
+    width: 25%;
+
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid indigo;
+}
+
+.experiences > li {
+    margin: 5px;
+}
+
+.atouts {
+    list-style-type: square;
+}
+
+.atouts > li {
+    margin: 5px;
+}
+
+.atouts > li::first-letter {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.aptitudes > div {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+/* Code CSS pour la page galerie */
+
+.galerie {
+    margin: 20px;
+}
+
+.galerie > div {
+    margin: 12.5px;
+}
+.galerie .img {
+    width: 31%;
+    margin: 10px;
+
+    display: inline-block;
+    min-height: 188px;
+
+    box-shadow: 5px 5px 5px black;
+}
+
+.galerie .img:hover {
+    box-shadow: none;
+    border: none;
+}
+
+.rangee1 .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: 10px;
+    border-radius: 7px;
+}
+
+.img1 {
+    background-image: url("/assets/img/automne.webp") ;
+}
+
+.img2 {
+    background-image: url("/assets/img/last-dive.webp") ;
+}
+
+.img3 {
+    background-image: url("/assets/img/autochtone.png") ;
+}
+
+.rangee2 img {
+    border: 2px solid rgb(82, 51, 42);
+}
+
+.img4 {
+    border-radius: 5%;
+}
+
+.img5 {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+/* Code CSS pour la page contact */
+
+.contact-infos {
+    text-align: center;
+}
+
+.contact-infos > div {
+    float: left;
+    width: 50%;
+}
+
+.contact-infos > ul {
+    padding: 30px;
+}
+
+.telephone {
+    color: orange;
+    margin: 25px;
+
+    font-weight: bold;
+}
+
+.sprites {
+    list-style-type: none;
+}
+
+.sprites li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.sprites a {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.sprites a {
+    background-image: url("/assets/img/media_sprites.png");
+}
+
+.sprite1 {
+    background-position: -100px -10px;
+}
+
+.sprite2 {
+    background-position: -55px -10px;
+}
+
+.sprite3 {
+    background-position: -10px -10px;
+}
+
+
+
+.svg {
+    clear: both;
 }
