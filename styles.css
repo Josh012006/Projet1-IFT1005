@@ -116,10 +116,12 @@ nav a:visited {
 .entete {
 	display: inline;
 	width: 50%;
+	text-align: center;
 }
 
 .image0 {
 	margin:20px;
+	margin-left: 150px;
 }
 
 .nom {
