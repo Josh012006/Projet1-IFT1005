@@ -354,8 +354,26 @@ nav a:visited {
     background-position: -10px -10px;
 }
 
+@keyframes slide {
+	0% {
+		left: 5%;
+	}
 
+	50% {
+		left: 70%;
+	}
+
+	100% {
+		left: 5%;
+	}
+}
 
 .svg {
     clear: both;
 }
+
+.svg img {
+	animation: slide 12s infinite;
+	position: relative;
+}
+

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+    <ellipse cx="150" cy="150" rx="120" ry="90" fill="#b6dede">
+        <animate attributeName="fill" to="#1e6969" dur="6s" repeatCount="indefinite"></animate>
+    </ellipse>
+    <polyline points="200,230 270,250 250,200" fill="#b6dede">
+        <animate attributeName="fill" to="#1e6969" dur="6s" repeatCount="indefinite"></animate>
+    </polyline>
+</svg>
