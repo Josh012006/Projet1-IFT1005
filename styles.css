@@ -4,6 +4,10 @@
  */
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* Code CSS commun aux quatre pages */
 
 *{
@@ -35,6 +39,8 @@ footer p {
 nav {
 	background-color: #172027;
 	margin-bottom: 20px;
+	
+	font-family: "Sour Gummy", sans-serif;
 }
 
 nav ul {
@@ -78,12 +84,14 @@ nav a:visited {
 
 .header-competence, .header-contact, .header-galerie {
 	text-indent: 15%;
-	font-size: 1.5em;
+	font-size: 2.1em;
 
 	margin: 0;
-	padding: 30px;
+	padding: 20px;
 
 	background-color: #06414e;
+
+	font-family: "Caveat", cursive;
 }
 
 
@@ -113,9 +121,11 @@ nav a:visited {
 
 .nom {
 	margin-bottom: 30px;
-	font-size: 60px;
+	font-size: 70px;
 	padding-top: 100px;
 	float: right;
+
+	font-family: "Caveat", cursive;
 }
 
 .citation {
@@ -190,6 +200,11 @@ nav a:visited {
 
 .competences h2 {
     text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.competences h3 {
+	font-family: "Josefin Sans", sans-serif;
 }
 
 .university {
@@ -207,6 +222,15 @@ nav a:visited {
     margin: 10px;
     border-radius: 5px;
     border: 1px solid indigo;
+}
+
+.redirection {
+	color: #06414e;
+	text-decoration: none;
+}
+
+.redirection:hover {
+	text-decoration: none;
 }
 
 .experiences > li {
